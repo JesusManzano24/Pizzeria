@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pizaf"
+    tools:context=".MainActivity5">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="70dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAGO"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:textColor="#FF99FF"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/usuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:textColor="#FF99FF"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginStart="110dp">
+
+            <TextView
+                android:id="@+id/cantidad"
+                android:background="@color/white"
+                android:textColor="#FF99FF"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"></TextView>
+
+            <TextView
+                android:id="@+id/nombre"
+                android:background="@color/white"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-150dp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:layout_marginStart="110dp">
+
+            <TextView
+                android:id="@+id/cantidad2"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:background="@color/white"
+                android:textColor="#FF99FF"></TextView>
+
+            <TextView
+                android:id="@+id/nombre2"
+                android:background="@color/white"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-150dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_marginStart="110dp">
+
+            <TextView
+                android:id="@+id/cantidad3"
+                android:background="@color/white"
+                android:textColor="#FF99FF"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"></TextView>
+
+            <TextView
+                android:id="@+id/nombre3"
+                android:background="@color/white"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-150dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:layout_marginStart="110dp">
+
+            <TextView
+                android:id="@+id/cantidad4"
+                android:background="@color/white"
+                android:textColor="#FF99FF"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"></TextView>
+
+            <TextView
+                android:id="@+id/nombre4"
+                android:background="@color/white"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-150dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:layout_marginStart="110dp">
+
+            <TextView
+                android:id="@+id/cantidad5"
+                android:background="@color/white"
+                android:textColor="#FF99FF"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"></TextView>
+
+            <TextView
+                android:id="@+id/nombre5"
+                android:background="@color/white"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-150dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            android:layout_marginStart="110dp">
+
+            <TextView
+                android:id="@+id/cantidad6"
+                android:background="@color/white"
+                android:textColor="#FF99FF"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"></TextView>
+
+            <TextView
+                android:id="@+id/nombre6"
+                android:background="@color/white"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-150dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:layout_marginStart="110dp">
+            <TextView
+                android:id="@+id/total"
+                android:background="@color/white"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:layout_marginStart="110dp">
+            <Button
+                android:text="Pagar"
+                android:id="@+id/Pagar2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="110dp"></Button>
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
