@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/pizaf">
+
+        <LinearLayout
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refresco Para Todos"
+                android:textSize="65px"
+                android:textColor="#FF0000"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/suma"
+            android:text="+"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="122dp"
+            android:layout_marginStart="-30dp"></Button>
+        <Button
+            android:id="@+id/suma2"
+            android:text="+"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="322dp"
+            android:layout_marginStart="-70dp"></Button>
+        <Button
+            android:id="@+id/resta2"
+            android:text="-"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="372dp"
+            android:layout_marginStart="-70dp"></Button>
+        <Button
+            android:id="@+id/suma3"
+            android:text="+"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginStart="-70dp"></Button>
+        <Button
+            android:id="@+id/resta3"
+            android:text="-"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="540dp"
+            android:layout_marginStart="-70dp"></Button>
+
+        <Button
+            android:id="@+id/resta"
+            android:text="-"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginStart="-70dp"></Button>
+        <TextView
+            android:id="@+id/cantidad1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="-320dp"
+            android:layout_marginTop="120dp"
+            android:textColor="#FF66CC"
+            android:background="@color/white"></TextView>
+        <TextView
+            android:id="@+id/cantidad2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="-50dp"
+            android:layout_marginTop="350dp"
+            android:textColor="#FF66CC"
+            android:background="@color/white"></TextView>
+        <TextView
+            android:id="@+id/cantidad3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="-50dp"
+            android:layout_marginTop="500dp"
+            android:textColor="#FF66CC"
+            android:background="@color/white"></TextView>
+
+        <TextView
+            android:id="@+id/pago"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="660dp"
+            android:textColor="#FF66CC"></TextView>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp">
+            <ImageView
+                android:id="@+id/Pastor"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginStart="-20dp"
+                android:background="@drawable/fanta"></ImageView>
+            <ImageView
+                android:id="@+id/Refrescos"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginStart="-150dp"
+                android:background="@drawable/coca"></ImageView>
+
+            <ImageView
+                android:id="@+id/Salchicha"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="460dp"
+                android:layout_marginStart="-130dp"
+                android:background="@drawable/sprite"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-180dp">
+            <TextView
+                android:text="Coca-Cola  $15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF99FF"
+                android:layout_marginTop="420dp"
+                android:layout_marginStart="20dp"
+                android:textSize="50px"></TextView>
+
+            <TextView
+                android:text="Sprite  $10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="610dp"
+                android:layout_marginStart="-100dp"
+                android:textColor="#FF99FF"
+                android:textSize="50px"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-90dp"
+                android:text="Fanta $12"
+                android:layout_marginTop="230dp"
+                android:textSize="50px"
+                android:textColor="#FF99FF"></TextView>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/atras"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/atras"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="-280dp"></ImageButton>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:layout_marginTop="600dp"
+            android:layout_marginStart="60dp">
+            <Button
+                android:id="@+id/pagar"
+                android:text="Pagar"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="170dp"></Button>
+            <Button
+                android:id="@+id/piza"
+                android:text="Pizzas"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="-50dp"
+                android:layout_marginStart="40dp"></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
