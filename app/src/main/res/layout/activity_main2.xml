@@ -5,5 +5,57 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/menu">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizzas"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="360dp"
+            android:layout_marginStart="170dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refrescos"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="630dp"
+            android:layout_marginStart="-100dp"></TextView>
+
+        <ImageButton
+            android:id="@+id/Pizza"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginStart="-130dp"
+            android:background="@drawable/pizza"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Refrescos"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginStart="-150dp"
+            android:background="@drawable/refrescos"></ImageButton>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/textViewUser"
+            android:textColor="#FF33CC	"></TextView>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
